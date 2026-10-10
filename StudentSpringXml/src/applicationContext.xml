@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="student1" class="com.student.Student">  
+<property name="id" value="101"></property> 
+<property name="name" value="Rutuja"></property> 
+<property name="age" value="23"></property> 
+<property name="city_name" value="Pune"></property> 
+<property name="email" value="rutujashinde0503@gmail.com"></property>  
+</bean>  
+  
+    
+<bean id="student2" class="com.student.Student">  
+<property name="id" value="202"></property> 
+<property name="name" value="Vaish"></property> 
+<property name="age" value="22"></property> 
+<property name="city_name" value="Nashik"></property> 
+<property name="email" value="Vaish@gmail.com"></property>  
+</bean>  
+
+  
+<bean id="student3" class="com.student.Student">  
+<property name="id" value="303"></property> 
+<property name="name" value="Kavita"></property> 
+<property name="age" value="23"></property> 
+<property name="city_name" value="Nagpur"></property> 
+<property name="email" value="kavita@gmail.com"></property>  
+</bean> 
+
+  
+<bean id="student4" class="com.student.Student">  
+<property name="id" value="404"></property> 
+<property name="name" value="Diksha"></property> 
+<property name="age" value="21"></property> 
+<property name="city_name" value="Kohlapur"></property> 
+<property name="email" value="diksha@gmail.com"></property>  
+</bean>  
+
+  
+<bean id="student5" class="com.student.Student">  
+<property name="id" value="505"></property> 
+<property name="name" value="Rupali"></property> 
+<property name="age" value="20"></property> 
+<property name="city_name" value="Nashik"></property> 
+<property name="email" value="Rupali@gmail.com"></property>  
+</bean> 
+
+  <bean id="student6" class="com.student.Student">
+      <constructor-arg value="606" type="int"></constructor-arg>
+      <constructor-arg value="Swati"></constructor-arg>
+      <constructor-arg value="20"></constructor-arg>
+      <constructor-arg value="Nagpur"></constructor-arg>
+       <constructor-arg value="swati@gmail.com"></constructor-arg>
+      
+  </bean>
+  
+    <bean id="student7" class="com.student.Student">
+      <constructor-arg value="707" type="int"></constructor-arg>
+      <constructor-arg value="Rutika"></constructor-arg>
+      <constructor-arg value="34"></constructor-arg>
+      <constructor-arg value="Latur"></constructor-arg>
+       <constructor-arg value="rutika@gmail.com"></constructor-arg>
+      
+  </bean>
+  
+    <bean id="student8" class="com.student.Student">
+      <constructor-arg value="808" type="int"></constructor-arg>
+      <constructor-arg value="Sakshi"></constructor-arg>
+      <constructor-arg value="22"></constructor-arg>
+      <constructor-arg value="Kalyan"></constructor-arg>
+       <constructor-arg value="sakshi@gmail.com"></constructor-arg>
+      
+  </bean>
+  
+    <bean id="student9" class="com.student.Student">
+      <constructor-arg value="909" type="int"></constructor-arg>
+      <constructor-arg value="Akshada"></constructor-arg>
+      <constructor-arg value="24"></constructor-arg>
+      <constructor-arg value="Nashik"></constructor-arg>
+       <constructor-arg value="aksjaa@gmail.com"></constructor-arg>
+      
+  </bean>
+  
+    <bean id="student10" class="com.student.Student">
+      <constructor-arg value="1010" type="int"></constructor-arg>
+      <constructor-arg value="karn"></constructor-arg>
+      <constructor-arg value="19"></constructor-arg>
+      <constructor-arg value="Nashik"></constructor-arg>
+      <constructor-arg value="karan122@gmail.com"></constructor-arg>
+      
+      
+  </bean>  
+</beans>
